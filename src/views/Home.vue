@@ -5,7 +5,7 @@
       <i class="material-icons">refresh</i>
       </button>
       <h4>
-          Обзор за вчера <span>{{date | date('date')}}</span>
+          Обзор за вчера <span>{{date | date('datetime')}}</span>
           <i class="material-icons black-text pointer" id="dashboard-info">info_outline</i>
       </h4>
     </div>
